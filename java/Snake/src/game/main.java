@@ -25,7 +25,7 @@ public class main {
 		gameFrame = new JFrame();
 //		gamePanel = new JPanel();
 		mListener = new MouseListener() {
-			
+
 			@Override
 			public void mouseReleased(MouseEvent e) {
 				// TODO Auto-generated method stub
