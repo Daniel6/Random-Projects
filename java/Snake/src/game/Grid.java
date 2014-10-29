@@ -255,5 +255,6 @@ public class Grid extends JPanel{
 		grid[head.x][head.y+2] = 1;
 		grid[rand.nextInt((77-2)+1)+2][rand.nextInt((77-2)+1)+2] = -1;
 		score = 0;
+		snake_length = 3;
 	}
 }
